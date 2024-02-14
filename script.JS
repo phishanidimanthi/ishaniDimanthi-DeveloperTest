@@ -6,5 +6,8 @@ function addTask(){
         alert('Please fill out all fields');
         // return false;
     }
+    else{
+        alert('Done the task');
+    }
     
 }
