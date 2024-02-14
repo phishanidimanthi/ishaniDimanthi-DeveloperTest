@@ -1,0 +1,86 @@
+/* header */
+.discription{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.title{
+    color: rgb(38, 141, 226);
+    font-weight: 600;
+    font-size: 3.75em;
+    text-decoration: none;
+    padding-left: 300px;    
+}
+
+.title:hover {
+    color: rgb(64, 153, 226);
+}
+
+.titleDes{
+    color: rgb(2, 55, 99);
+    font-weight: 400;
+    text-align: center;
+    font-size: 1.75em;
+}
+
+/* CRUDE Task */
+
+.taskList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2rem;
+    background-color: antiquewhite;
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+}
+
+.taskList {
+    display: flex;
+    font-size: medium;
+    row-gap:  15px;
+    overflow-y: auto;
+    max-height: 40vh;
+    border: solid black;
+    padding: 25px;
+    margin-left: 500px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    background-color: rgb(118, 186, 241);;
+}
+
+.taskList:hover{
+    background-color: rgb(104, 164, 212);;
+}
+
+.listDiv{
+    display: flex;
+    flex-wrap: wrap;
+    columns:  1;
+    color: rgb(176, 208, 235);
+}
+
+.taskList form input{
+    padding: 10px;
+} 
+
+.updateTask form input{
+    padding: 10px;
+} 
+
+.myTask{
+    color: rgb(118, 118, 243);
+    padding-left: 300px;
+    font-size: 1.75em;
+    text-decoration: none;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.myTask:hover{
+    color: rgb(67, 67, 209);
+}

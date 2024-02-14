@@ -1,0 +1,28 @@
+
+Languages: HTML, CSS, JavaScript, PHP
+
+Server Connection: Used XAMMP for local server connection
+
+DataBase Connection: MySQL in Hedi SQL software 
+
+How to run: 
+	1. Save the project in htdocs folder. 
+	
+	2. Open XAMMP -> Start Apache and MySQL servers. 
+
+	3. Open the browser
+
+	4. type in search bar "localhost" and select and open the project
+
+	5. Then it will open the index.php file (Normally open the index file in any project)
+
+
+Prosedure:
+	1. Add tasks to the Database
+	2. View added tasks
+	3. Update added tasks
+	4. Delete tasks
+
+
+
+	
